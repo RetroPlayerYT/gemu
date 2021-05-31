@@ -1,0 +1,2 @@
+# Locales
+## .PAK files.
