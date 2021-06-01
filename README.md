@@ -5,7 +5,7 @@ There is a documentation of Gemu.
 
 This repo only contains the parts of repos I modified to make gemu and that are editable.
 
-### -Original GBC Emulator-
+### -Original GBC Emulator by Chris Maltby forked from Grant Galitz's JavaScript GameBoy Color Emulator-
 
 # JavaScript GameBoy Color Emulator
 
