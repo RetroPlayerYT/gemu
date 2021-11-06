@@ -1,4 +1,4 @@
-![](https://files.catbox.moe/z528tu.jpg)
+![](https://files.catbox.moe/o95u62.png)
                                 
 ## A fork of Chris Maltby's fork of Grant Galitz's JavaScript GB(C) emu.
 ### Features
