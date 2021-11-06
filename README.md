@@ -1,9 +1,4 @@
-  ____ _____ __  __ _   _ 
- / ___| ____|  \/  | | | |
-| |  _|  _| | |\/| | | | |
-| |_| | |___| |  | | |_| |
- \____|_____|_|  |_|\___/ 
-                          
+![](https://files.catbox.moe/z528tu.jpg)
                                 
 ## A fork of Chris Maltby's fork of Grant Galitz's JavaScript GB(C) emu.
 ### Features
