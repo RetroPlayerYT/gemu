@@ -10,6 +10,10 @@
 • Requires no hosting
 • Has a menu
 
+### Requirements
+[Java](https://www.java.com/)
+[Node.js](https://nodejs.org/)
+
 # License
 ## Copyright (C) 2010 - 2016 Grant Galitz
 
