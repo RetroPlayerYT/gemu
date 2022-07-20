@@ -42,7 +42,7 @@ f.setVisible(true);//making the frame visible
 b.addActionListener(new ActionListener(){  
 public void actionPerformed(ActionEvent e){  
     try {
-        Runtime.getRuntime().exec("cmd /c start run1.cmd /K ");
+        Runtime.getRuntime().exec("cmd /c start run1.cmd /K "); // These locally host slots.
 
     } catch (IOException ee) {
         ee.printStackTrace();
