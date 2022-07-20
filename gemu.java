@@ -78,7 +78,7 @@ b2.addActionListener(new ActionListener(){
     b3.addActionListener(new ActionListener(){  
         public void actionPerformed(ActionEvent e){  
             try {
-                Runtime.getRuntime().exec("cmd /c start setup.jar /K");
+                Runtime.getRuntime().exec("cmd /c start setup.jar /K"); // Make sure to put the compiled gemubase file in the root of the gemu directory and call it setup.jar
             
             } catch (IOException ee) {
                     ee.printStackTrace();
