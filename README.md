@@ -2,7 +2,7 @@
                                 
 ## A fork of Chris Maltby's JavaScript GB(C) emu, based of Grant Galitz's.
 ### Features
-• Emulates Gameboy ROMs in your web browser! (NW.js to be precise, haha)
+• Emulates Gameboy ROMs in your web browser! (localhost to be precise, haha)
 • Supports colour! Although it supports colour, it doesn't support GBC.
 
 ### Fork Improvements
