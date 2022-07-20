@@ -26,9 +26,8 @@ b4.setBounds(130,300,150, 40);//x axis, y axis, width, height
 
 b.addActionListener(new ActionListener(){  
     public void actionPerformed(ActionEvent e){  
-        String anyCommand="start https://nodejs.org";
         try {
-            Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+            Runtime.getRuntime().exec("cmd /c start https://nodejs.org /K ");
     
         } catch (IOException ee) {
             ee.printStackTrace();
@@ -39,9 +38,8 @@ b.addActionListener(new ActionListener(){
 
 b1.addActionListener(new ActionListener(){  
     public void actionPerformed(ActionEvent e){  
-        String anyCommand="npm install -g harp";
         try {
-            Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+            Runtime.getRuntime().exec("cmd /c start installharp.cmd");
     
         } catch (IOException ee) {
             ee.printStackTrace();
@@ -52,9 +50,8 @@ b1.addActionListener(new ActionListener(){
 
 b2.addActionListener(new ActionListener(){  
     public void actionPerformed(ActionEvent e){  
-        String anyCommand="start https://gemudocumentation-0169.notaku.site/";
         try {
-            Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+            Runtime.getRuntime().exec("cmd /c start https://gemudocumentation-0169.notaku.site/ /K ");
         
         } catch (IOException ee) {
             ee.printStackTrace();
@@ -65,9 +62,8 @@ b2.addActionListener(new ActionListener(){
 
     b3.addActionListener(new ActionListener(){  
         public void actionPerformed(ActionEvent e){  
-            String anyCommand="start Controls.chm";
             try {
-                Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+                Runtime.getRuntime().exec("cmd /c start Controls.chm /K ");
             
             } catch (IOException ee) {
                 ee.printStackTrace();
@@ -78,9 +74,8 @@ b2.addActionListener(new ActionListener(){
 
         b4.addActionListener(new ActionListener(){  
             public void actionPerformed(ActionEvent e){  
-                String anyCommand="start Attributions.chm";
                 try {
-                    Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+                    Runtime.getRuntime().exec("cmd /c start Attributions.chm /K ");
                 
                 } catch (IOException ee) {
                     ee.printStackTrace();
