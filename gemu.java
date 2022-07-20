@@ -41,9 +41,8 @@ f.setVisible(true);//making the frame visible
 
 b.addActionListener(new ActionListener(){  
 public void actionPerformed(ActionEvent e){  
-    String anyCommand="start run1.cmd";
     try {
-        Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+        Runtime.getRuntime().exec("cmd /c start run1.cmd /K ");
 
     } catch (IOException ee) {
         ee.printStackTrace();
@@ -54,9 +53,8 @@ public void actionPerformed(ActionEvent e){
 
 b1.addActionListener(new ActionListener(){  
     public void actionPerformed(ActionEvent e){  
-        String anyCommand="start run2.cmd";
         try {
-            Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+            Runtime.getRuntime().exec("cmd /c start run2.cmd /K ");
     
         } catch (IOException ee) {
             ee.printStackTrace();
@@ -67,9 +65,8 @@ b1.addActionListener(new ActionListener(){
 
 b2.addActionListener(new ActionListener(){  
     public void actionPerformed(ActionEvent e){  
-        String anyCommand="start run3.cmd";
         try {
-            Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+            Runtime.getRuntime().exec("cmd /c start run3.cmd /K ");
         
         } catch (IOException ee) {
                 ee.printStackTrace();
@@ -80,9 +77,8 @@ b2.addActionListener(new ActionListener(){
 
     b3.addActionListener(new ActionListener(){  
         public void actionPerformed(ActionEvent e){  
-            String anyCommand="java -jar setup.jar";
             try {
-                Runtime.getRuntime().exec("cmd /c start cmd.exe /K " + anyCommand);
+                Runtime.getRuntime().exec("cmd /c start setup.jar /K");
             
             } catch (IOException ee) {
                     ee.printStackTrace();
