@@ -8,6 +8,7 @@ Image icon = Toolkit.getDefaultToolkit().getImage("logo.png");
 JFrame f=new JFrame();//creating instance of JFrame  
 f.setTitle("Gemu - More Options");
 f.setIconImage(icon);    
+f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    
           
 JButton b=new JButton("Install Node.js");//creating instance of JButton   
 b.setBounds(130,100,150, 40);//x axis, y axis, width, height  
@@ -22,7 +23,10 @@ JButton b3=new JButton("Controls");//creating instance of JButton
 b3.setBounds(130,250,150, 40);//x axis, y axis, width, height  
 
 JButton b4=new JButton("Attribution");//creating instance of JButton   
-b4.setBounds(130,300,150, 40);//x axis, y axis, width, height  
+b4.setBounds(130,300,150, 40);//x axis, y axis, width, height
+
+JLabel l1=new JLabel("Current version: 2.2.1");
+l1.setBounds(140, 330, 150, 40);
 
 b.addActionListener(new ActionListener(){  
     public void actionPerformed(ActionEvent e){  
@@ -89,6 +93,7 @@ f.add(b1);//adding button in JFrame
 f.add(b2);//adding button in JFrame  
 f.add(b3);//adding button in JFrame  
 f.add(b4);//adding button in JFrame  
+f.add(l1);
           
 f.setSize(420,490);//400 width and 500 height  
 f.setLayout(null);//using no layout managers  
