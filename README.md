@@ -1,5 +1,8 @@
 ![](https://files.catbox.moe/o95u62.png)
-                                
+           
+NOTE: I've migrated from GitHub to Codeberg. You can check the
+up-to-date repo here: https://codeberg.org/RetroAkaMe/gemu
+           
 ## A fork of Chris Maltby's JavaScript GB(C) emu, based of Grant Galitz's.
 ### Features
 • Emulates Gameboy ROMs in your web browser! (localhost to be precise, haha)
